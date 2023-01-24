@@ -1,0 +1,105 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Elemental Selectors*/
+body {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: beige;
+    color: black;
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+main {
+    padding: 60px;
+}
+
+img {
+    display: block;
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+
+header, 
+footer {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: blue;
+}
+
+header {
+    position: fixed;
+    border-bottom: 15px solid #badd;
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 15px solid #3a1004;
+    color: aliceblue;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 75px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    width: 250px;
+    border: 1px solid #8e6459;
+}
+
+textarea {
+    vertical-align: top;
+    height: 50px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
